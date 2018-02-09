@@ -29,9 +29,9 @@ ADMINS = (
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 # EMAIL_HOST_USER = 'deepakbharti823@gmail.com'
-EMAIL_HOST_USER='ImperialArkon@gmail.com'
+EMAIL_HOST_USER=''
 # EMAIL_HOST_PASSWORD = 'zwmdutnsiyyhskge'
-EMAIL_HOST_PASSWORD = 'MyGooglE@3S'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 587
 
 
@@ -108,7 +108,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'ia',
         'USER': 'root',
-        'PASSWORD': 'kali@161ss',
+        'PASSWORD': '',
         'HOST': '139.59.59.50',
         'PORT': '5432',
     }
